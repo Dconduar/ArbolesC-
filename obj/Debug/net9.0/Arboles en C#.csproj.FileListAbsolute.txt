@@ -1,0 +1,14 @@
+C:\Users\dieg0\OneDrive\Escritorio\Arboles en C#\bin\Debug\net9.0\Arboles en C#.exe
+C:\Users\dieg0\OneDrive\Escritorio\Arboles en C#\bin\Debug\net9.0\Arboles en C#.deps.json
+C:\Users\dieg0\OneDrive\Escritorio\Arboles en C#\bin\Debug\net9.0\Arboles en C#.runtimeconfig.json
+C:\Users\dieg0\OneDrive\Escritorio\Arboles en C#\bin\Debug\net9.0\Arboles en C#.dll
+C:\Users\dieg0\OneDrive\Escritorio\Arboles en C#\bin\Debug\net9.0\Arboles en C#.pdb
+C:\Users\dieg0\OneDrive\Escritorio\Arboles en C#\obj\Debug\net9.0\Arboles en C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dieg0\OneDrive\Escritorio\Arboles en C#\obj\Debug\net9.0\Arboles en C#.AssemblyInfoInputs.cache
+C:\Users\dieg0\OneDrive\Escritorio\Arboles en C#\obj\Debug\net9.0\Arboles en C#.AssemblyInfo.cs
+C:\Users\dieg0\OneDrive\Escritorio\Arboles en C#\obj\Debug\net9.0\Arboles en C#.csproj.CoreCompileInputs.cache
+C:\Users\dieg0\OneDrive\Escritorio\Arboles en C#\obj\Debug\net9.0\Arboles en C#.dll
+C:\Users\dieg0\OneDrive\Escritorio\Arboles en C#\obj\Debug\net9.0\refint\Arboles en C#.dll
+C:\Users\dieg0\OneDrive\Escritorio\Arboles en C#\obj\Debug\net9.0\Arboles en C#.pdb
+C:\Users\dieg0\OneDrive\Escritorio\Arboles en C#\obj\Debug\net9.0\Arboles en C#.genruntimeconfig.cache
+C:\Users\dieg0\OneDrive\Escritorio\Arboles en C#\obj\Debug\net9.0\ref\Arboles en C#.dll
