@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Arboles en C#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9d34307bce8217e154d7978ec192772d263bfda")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2f86795f18964e4941db7d67511ee2155c77046")]
 [assembly: System.Reflection.AssemblyProductAttribute("Arboles en C#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Arboles en C#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
