@@ -1,0 +1,40 @@
+1. Comparación de tiempos entre BST y AVL
+Inserción:
+
+BST: 5 ms para 10,000 elementos
+AVL: 868 ms para 10,000 elementos
+El BST es aproximadamente 173 veces más rápido en inserción
+
+Búsqueda:
+
+BST: 1366/21/19 ticks (inicio/medio/final)
+AVL: 3/20/17 ticks (inicio/medio/final)
+El AVL es sustancialmente más rápido en búsqueda al inicio (455 veces), y ligeramente más rápido al medio y final
+
+Eliminación:
+
+Ambos árboles reportan 0 ms, por lo que no hay diferencia apreciable
+
+2. Razones por las que el AVL es más rápido en búsquedas
+El árbol AVL tiende a ser más rápido en operaciones de búsqueda porque mantiene un balance estricto, garantizando que la diferencia de altura entre subárboles izquierdo y derecho nunca exceda 1. Esta propiedad asegura que:
+
+La altura del árbol se mantiene próxima a log₂(n), donde n es el número de nodos
+El camino de búsqueda es más corto y predecible
+Se evitan las degeneraciones que pueden ocurrir en un BST estándar (como convertirse en una lista enlazada)
+
+En un BST desbalanceado, las búsquedas pueden degradarse a O(n) en el peor caso, mientras que un AVL garantiza búsquedas en O(log n), lo que resulta en una diferencia dramática para conjuntos grandes de datos.
+3. Análisis detallado
+Casos con mayor diferencia:
+
+La búsqueda del elemento al inicio muestra la diferencia más dramática (1366 vs 3 ticks), lo que sugiere que el BST está considerablemente desbalanceado hacia un lado
+Esto indica que probablemente el árbol BST ha desarrollado una estructura más lineal o sesgada
+
+Casos donde el BST fue más rápido:
+
+La inserción en BST fue significativamente más rápida (5 ms vs 868 ms)
+Esto ocurre porque:
+
+El BST no realiza operaciones de balanceo después de cada inserción
+El AVL debe realizar rotaciones y recálculos de factores de balance para mantener la propiedad AVL
+Estas operaciones adicionales tienen un costo computacional significativo
+El tiempo extra en inserción es el "precio" que paga el AVL para garantizar búsquedas eficientes posteriormente
