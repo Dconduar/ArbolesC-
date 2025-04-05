@@ -15,26 +15,9 @@ Eliminación:
 
 Ambos árboles reportan 0 ms, por lo que no hay diferencia apreciable
 
-2. Razones por las que el AVL es más rápido en búsquedas
-El árbol AVL tiende a ser más rápido en operaciones de búsqueda porque mantiene un balance estricto, garantizando que la diferencia de altura entre subárboles izquierdo y derecho nunca exceda 1. Esta propiedad asegura que:
+Un árbol AVL es más rápido en operaciones de búsqueda porque se mantiene balanceado, lo que asegura que su altura sea logarítmica, permitiendo buscar en menos nodos. En cambio, un BST no balanceado puede volverse "delgado" y convertirse en una lista, lo que aumenta el tiempo de búsqueda.
 
-La altura del árbol se mantiene próxima a log₂(n), donde n es el número de nodos
-El camino de búsqueda es más corto y predecible
-Se evitan las degeneraciones que pueden ocurrir en un BST estándar (como convertirse en una lista enlazada)
+Diferencias notadas: La mayor diferencia se ve con grandes volúmenes de datos, especialmente cuando el BST no está balanceado, lo que aumenta su altura.
 
-En un BST desbalanceado, las búsquedas pueden degradarse a O(n) en el peor caso, mientras que un AVL garantiza búsquedas en O(log n), lo que resulta en una diferencia dramática para conjuntos grandes de datos.
-3. Análisis detallado
-Casos con mayor diferencia:
-
-La búsqueda del elemento al inicio muestra la diferencia más dramática (1366 vs 3 ticks), lo que sugiere que el BST está considerablemente desbalanceado hacia un lado
-Esto indica que probablemente el árbol BST ha desarrollado una estructura más lineal o sesgada
-
-Casos donde el BST fue más rápido:
-
-La inserción en BST fue significativamente más rápida (5 ms vs 868 ms)
-Esto ocurre porque:
-
-El BST no realiza operaciones de balanceo después de cada inserción
-El AVL debe realizar rotaciones y recálculos de factores de balance para mantener la propiedad AVL
-Estas operaciones adicionales tienen un costo computacional significativo
-El tiempo extra en inserción es el "precio" que paga el AVL para garantizar búsquedas eficientes posteriormente
+Casos donde el BST fue más rápido: Si el BST ya estaba balanceado o los datos estaban en un orden que no causaba desbalance, las inserciones y eliminaciones podían ser más rápidas, ya que no se necesitaban rotaciones como en el AVL.
+.
