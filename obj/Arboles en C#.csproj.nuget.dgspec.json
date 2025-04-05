@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dieg0\\OneDrive\\Escritorio\\Arboles en C#\\Arboles en C#.csproj": {}
+    "C:\\Users\\dieg0\\OneDrive\\Documentos\\Trabajos\\Arboles en C#\\Arboles en C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dieg0\\OneDrive\\Escritorio\\Arboles en C#\\Arboles en C#.csproj": {
+    "C:\\Users\\dieg0\\OneDrive\\Documentos\\Trabajos\\Arboles en C#\\Arboles en C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dieg0\\OneDrive\\Escritorio\\Arboles en C#\\Arboles en C#.csproj",
+        "projectUniqueName": "C:\\Users\\dieg0\\OneDrive\\Documentos\\Trabajos\\Arboles en C#\\Arboles en C#.csproj",
         "projectName": "Arboles en C#",
-        "projectPath": "C:\\Users\\dieg0\\OneDrive\\Escritorio\\Arboles en C#\\Arboles en C#.csproj",
+        "projectPath": "C:\\Users\\dieg0\\OneDrive\\Documentos\\Trabajos\\Arboles en C#\\Arboles en C#.csproj",
         "packagesPath": "C:\\Users\\dieg0\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dieg0\\OneDrive\\Escritorio\\Arboles en C#\\obj\\",
+        "outputPath": "C:\\Users\\dieg0\\OneDrive\\Documentos\\Trabajos\\Arboles en C#\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
